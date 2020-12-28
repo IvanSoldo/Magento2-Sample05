@@ -4,10 +4,10 @@
 
     <body>
         <referenceContainer name="header.container">
-            <block class="Inchoo\Sample05\Block\Hello" name="goodbye.header" template="Inchoo_Sample05::hello.phtml"/>
+            <block class="Inchoo\Sample05\Block\Hello" name="header.content" template="Inchoo_Sample05::hello.phtml"/>
         </referenceContainer>
         <referenceContainer name="main.content">
-            <block class="Inchoo\Sample05\Block\Hello" name="goodbye.content" template="Inchoo_Sample05::hello.phtml"/>
+            <block class="Inchoo\Sample05\Block\Hello" name="goodbye" template="Inchoo_Sample05::hello.phtml"/>
         </referenceContainer>
     </body>
 </page>
